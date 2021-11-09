@@ -8,12 +8,6 @@ body {
   color: darkslateblue;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Permanent Marker", cursive;
-}
-
 img {
   width: 600px;
   height: auto;
@@ -54,10 +48,6 @@ img {
   padding-left: 56px;
   padding-right: 40px;
   line-height: 25px;
-  /*  font-family: "Dancing Script", cursive;
-  font-size: 19px;
-  letter-spacing: 1px;
-  word-spacing: 5px; */
 }
 
 .image {
@@ -71,12 +61,12 @@ img {
   position: absolute;
   top: 16px;
   left: 16px;
-  font-size: 32px
+  font-size: 32px;
 }
 
 .description {
   position: absolute;
   bottom: 16px;
   left: 16px;
-  font-size: 18px
+  font-size: 18px;
 }
