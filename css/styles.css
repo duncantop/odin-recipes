@@ -1,5 +1,82 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Waiting+for+the+Sunrise&display=swap");
 
 body {
   font-family: "Permanent Marker", cursive;
+  font-size: 20px;
+  font-weight: lighter;
+  background-color: antiquewhite;
+  color: darkslateblue;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Permanent Marker", cursive;
+}
+
+img {
+  width: 600px;
+  height: auto;
+}
+
+/* styling paper */
+#paper {
+  width: 700px;
+  height: 100%;
+  position: relative;
+  margin: 20px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+
+/* styling red vertical line */
+#paper::before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40px;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+/* styling blue horizontal lines */
+#pattern {
+  height: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+}
+
+/* styling text content */
+#content {
+  padding-top: 6px;
+  padding-left: 56px;
+  padding-right: 40px;
+  line-height: 25px;
+  /*  font-family: "Dancing Script", cursive;
+  font-size: 19px;
+  letter-spacing: 1px;
+  word-spacing: 5px; */
+}
+
+.image {
+  position: relative;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.title {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 32px
+}
+
+.description {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  font-size: 18px
 }
